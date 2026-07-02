@@ -8,6 +8,8 @@ import {
   LatestInvoicesSkeleton,
   RevenueChartSkeleton,
 } from "@/app/ui/skeletons";
+export const dynamic = 'force-dynamic';
+
 export default async function Page() {
   const {
     totalPaidInvoices,
